@@ -48,8 +48,8 @@ const crestAttributes: { [key: string]: { silk: number; red: number; blue: numbe
 const crestNames: string[] = ["Hunter", "Reaper", "Wanderer", "Beast", "Witch", "Architect", "Shaman"];
 const silkSkills: string[] = ["Silk Spear", "Thread Storm", "Cross Stitch", "Sharp Dart", "Rune Rage", "Pale Nails"];
 const redTools: string[] = ["Straight Pin", "Threefold Pin", "Sting Shard", "Tacks", "Longpin", "Curveclaw/Curvesickle", "Throwing Ring", "Pimpillo", "Conchcutter", "Silkshot", "Delver's Drill", "Cogwork Wheel", "Cogfly", "Rosary Cannon", "Voltvessels", "Flintslate", "Snare Setter", "Flea Brew", "Plasmium Phial"];
-const blueTools: string[] = [];
-const yellowTools: string[] = [];
+const blueTools: string[] = ["Druid's Eye(s)", "Magma Bell", "Warding Bell", "Pollip Pouch", "Fractured Mask", "Multibinder", "Weavelight", "Sawtooth Circlet", "Injector Band", "Spool Extender", "Reserve Bind", "Claw Mirror(s)", "Memory Crystal", "Snitch Pick", "Volt Filament", "Quick Sling", "Wreath of Purity", "Longclaw", "Wispfire Lantern", "Egg of Flealiea", "Pin Badge"];
+const yellowTools: string[] = ["Compass", "Shard Pendant", "Magnetite Brooch", "Weighted Belt", "Barbed Bracelet", "Dead Bug's Purse/Shell Satchel", "Magnetite Dice", "Scuttlebrace", "Ascendant's Grip", "Spider Strings", "Silkspeed Anklets", "Thief's Mark"];
 
 export const randomizeCrest = (): Crest => {
     const randomCrestName = crestNames[Math.floor(Math.random() * crestNames.length)];
